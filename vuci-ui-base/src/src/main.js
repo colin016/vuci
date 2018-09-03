@@ -5,6 +5,8 @@ import VueAxios from 'vue-axios'
 import App from './App.vue'
 import router from './router'
 import './material-design-icons/material-icons.css'
+import Buefy from 'buefy'
+import 'buefy/lib/buefy.css'
 
 import './plugins/vuetify'
 import VueFilter from './plugins/vue-filter.js'
@@ -19,6 +21,8 @@ import CardTable from './components/CardTable.vue'
 import CardList from './components/CardList.vue'
 
 Vue.config.productionTip = false
+
+Vue.use(Buefy)
 
 Vue.use(VueAxios, axios)
 Vue.use(VueFilter)
