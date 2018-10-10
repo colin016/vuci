@@ -6,7 +6,7 @@ import App from './App.vue'
 import router from './router'
 import './material-design-icons/material-icons.css'
 import Buefy from 'buefy'
-import 'buefy/lib/buefy.css'
+import 'buefy/dist/buefy.css'
 
 import './plugins/vuetify'
 import VueFilter from './plugins/vue-filter.js'
